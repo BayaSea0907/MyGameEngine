@@ -1,0 +1,12 @@
+#pragma once
+
+enum MySceneState
+{
+	SCENE_NONE = -1,
+	SCENE_TITLE,
+	SCENE_MENU,
+	SCENE_STAGE,
+	SCENE_CLEAR,
+	SCENE_GAME_OVER,
+};
+

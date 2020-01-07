@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX">
+      <UniqueIdentifier>{2db1ae40-20a7-4017-9ad3-b30f4d4994ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine">
+      <UniqueIdentifier>{4ce49eb4-ce91-46a6-b15d-007251ae314e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine\GameObject">
+      <UniqueIdentifier>{dc4e3b77-a761-48df-8f08-a7bcd452de05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Math">
+      <UniqueIdentifier>{e4f328b5-c76b-4962-b368-bfd49a11f38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine\Game">
+      <UniqueIdentifier>{d9b4e64c-001c-4ca4-b0bf-d4ab618ede2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine\Render">
+      <UniqueIdentifier>{24b4ac36-597a-49af-9105-1b184f2540b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine\Collision">
+      <UniqueIdentifier>{1b8b0661-db77-489d-bfed-44da0043460e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine\Input">
+      <UniqueIdentifier>{2d2637b7-bcc7-4807-96a7-8a0dd0a29dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine\Scene">
+      <UniqueIdentifier>{7af383db-b546-49d7-a2f0-4c98552078d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX\Polygon.h">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>ソース ファイル\Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameEngine.h">
+      <Filter>ソース ファイル\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RenderEngine.h">
+      <Filter>ソース ファイル\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CollisionEngine.h">
+      <Filter>ソース ファイル\Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CollisionComponent.h">
+      <Filter>ソース ファイル\Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RenderComponent.h">
+      <Filter>ソース ファイル\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectInput.h">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputEngine.h">
+      <Filter>ソース ファイル\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectRender.h">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>ソース ファイル\Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Transform.h">
+      <Filter>ソース ファイル\Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectRenderComponent.h">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MyInputCodeList.h">
+      <Filter>ソース ファイル\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneEngine.h">
+      <Filter>ソース ファイル\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\BaseScene.h">
+      <Filter>ソース ファイル\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputComponent.h">
+      <Filter>ソース ファイル\Engine\Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Polygon.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>ソース ファイル\Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameEngine.cpp">
+      <Filter>ソース ファイル\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RenderEngine.cpp">
+      <Filter>ソース ファイル\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CollisionEngine.cpp">
+      <Filter>ソース ファイル\Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CollisionComponent.cpp">
+      <Filter>ソース ファイル\Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RenderComponent.cpp">
+      <Filter>ソース ファイル\Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectInput.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\InputEngine.cpp">
+      <Filter>ソース ファイル\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectRender.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>ソース ファイル\Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Transform.cpp">
+      <Filter>ソース ファイル\Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectRenderComponent.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneEngine.cpp">
+      <Filter>ソース ファイル\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\BaseScene.cpp">
+      <Filter>ソース ファイル\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\InputComponent.cpp">
+      <Filter>ソース ファイル\Engine\Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Game.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
